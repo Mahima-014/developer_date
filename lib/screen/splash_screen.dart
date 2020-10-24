@@ -26,9 +26,9 @@ class _SplashScreenState extends State<SplashScreen> {
                   child: Text(
                     'Developer Date',
                     style: TextStyle(
-                      fontFamily: 'Caveat',
-                      fontSize: 40.0,
-                      fontWeight: FontWeight.bold,
+                      fontFamily: 'Lobster',
+                      fontSize: 37.0,
+                      fontWeight: FontWeight.w600,
                     ),
                   ),
                 ),
@@ -51,6 +51,10 @@ class _SplashScreenState extends State<SplashScreen> {
                   height: 42.0,
                   child: Text(
                     'Log In',
+                    style: TextStyle(
+                      fontFamily: 'Caveat',
+                      fontSize: 32.0,
+                    ),
                   ),
                 ),
               ),
@@ -69,6 +73,10 @@ class _SplashScreenState extends State<SplashScreen> {
                   height: 42.0,
                   child: Text(
                     'Sign Up',
+                    style: TextStyle(
+                      fontFamily: 'Caveat',
+                      fontSize: 32.0,
+                    ),
                   ),
                 ),
               ),

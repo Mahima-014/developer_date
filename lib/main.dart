@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:developer_date/screen/splash_screen.dart';
+import 'package:developer_date/screen/login_screen.dart';
 
 void main() => runApp(MyApp());
 
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
           body1: TextStyle(color: Colors.black87),
         ),
       ),
-      home:SplashScreen(),
+      home:LoginScreen(),
     );
   }
 }

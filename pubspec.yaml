@@ -25,4 +25,7 @@ flutter:
     - family: Caveat
       fonts:
         - asset: fonts/Caveat-Regular.ttf
+    - family: Lobster
+      fonts:
+        - asset: fonts/Lobster-Regular.ttf
 
